@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xe="http://www.ibm.com/xsp/coreex">
+ 
+	<!--
+		Bind the Component that you want to inspect to a request scope
+		variable by using the binding property We Will use myComponent as
+		scope variable name
+	-->
+	<xp:inputText
+		id="inputText1"
+		binding="#{myComponent}">
+	<xp:this.attrs>
+		<xp:attr
+			name="y"
+			value="y">
+		</xp:attr>
+	</xp:this.attrs></xp:inputText>
+	<xp:label id="label1">
+		<xp:this.value><![CDATA[#{javascript:var fc:com.ibm.xsp.context.FacesContextExImpl = facesContext;
+fc.getRenderKit().getClass().getCanonicalName()}]]></xp:this.value>
+	</xp:label>
+</xp:view>

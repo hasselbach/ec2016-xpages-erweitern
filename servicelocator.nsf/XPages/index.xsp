@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
+	<h1>Service Locator A</h1>
+	
+	<xp:button
+		id="button1"
+		value="Setze ServerMap">
+		<xp:eventHandler
+			event="onclick"
+			submit="true"
+			refreshMode="complete">
+			<xp:this.action>
+                <![CDATA[#{javascript:importPackage( ch.hasselba.xpagesservicelocator );
+                    var msg = "ServiceLocator: " + java.lang.System.currentTimeMillis();
+                   
+                   	ch.hasselba.xpagesservicelocator.ServiceLocatorFactory.getInstance().getServiceLocator().getServerMap().put("ec2016", msg );
+                }]]>
+			</xp:this.action>
+		</xp:eventHandler>
+	</xp:button>
+	
+	<br />
+	<br />
+	
+	<xp:label
+		id="labelSubscriberMessage">
+		<xp:this.value>
+			<![CDATA[#{javascript:importPackage( ch.hasselba.xpagesservicelocator );
+				ch.hasselba.xpagesservicelocator.ServiceLocatorFactory.getInstance().getServiceLocator().getServerMap().get("ec2016");
+           }]]>
+		</xp:this.value>
+	</xp:label>
+	
+</xp:view>

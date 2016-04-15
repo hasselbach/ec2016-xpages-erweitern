@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257F6E0043BFC4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="256" sequence="30" unid="0FD442B5243FAFF1C1257F74006A613D">
+<created><datetime>20160312T202157,09+01</datetime></created>
+<modified><datetime dst="true">20160413T093327,68+02</datetime></modified>
+<revised><datetime dst="true">20160413T093327,66+02</datetime></revised>
+<lastaccessed><datetime dst="true">20160413T093327,66+02</datetime></lastaccessed>
+<addedtofile><datetime>20160312T202157,09+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></updatedby>
+<wassignedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>ec2016/concurrent/DemoExecutor.java</text></item>
+
+
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>ec2016/concurrent/DemoExecutor.java</text></item>
+
+</note>

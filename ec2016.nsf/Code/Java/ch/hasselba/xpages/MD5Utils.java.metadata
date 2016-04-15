@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257F6E0043BFC4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="222" sequence="18" unid="A75473F20118661DC1257F74004EF8F7">
+<created><datetime>20160312T152235,43+01</datetime></created>
+<modified><datetime>20160312T154315,51+01</datetime></modified>
+<revised><datetime>20160312T154315,49+01</datetime></revised>
+<lastaccessed><datetime>20160312T154315,49+01</datetime></lastaccessed>
+<addedtofile><datetime>20160312T152235,43+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></updatedby>
+<wassignedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>ch/hasselba/xpages/MD5Utils.java</text></item>
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>ch/hasselba/xpages/MD5Utils.java</text></item>
+
+</note>

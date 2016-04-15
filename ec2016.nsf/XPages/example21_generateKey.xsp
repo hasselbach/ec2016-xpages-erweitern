@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
+	<h1>BAD TOKEN!</h1>
+	
+	<xp:link
+		escape="true"
+		id="link1"
+		value="/example20_survey.xsp">
+		<xp:this.parameters>
+			<xp:parameter
+				name="id"
+				value="uniqueKey">
+			</xp:parameter>
+			<xp:parameter
+				name="hash">
+				<xp:this.value>
+					<![CDATA[#{javascript:
+						importPackage( ch.hasselba.xpages );
+						new MD5Utils().generateHash("uniqueKey");}]]>
+				</xp:this.value>
+			</xp:parameter>
+		</xp:this.parameters>
+		<xp:this.text>
+			<![CDATA[#{javascript:
+				importPackage( ch.hasselba.xpages );
+				"/example20_survey.xsp?key=uniqueKey&hash=" + new MD5Utils().generateHash("uniqueKey");}]]>
+		</xp:this.text>
+	</xp:link>
+</xp:view>

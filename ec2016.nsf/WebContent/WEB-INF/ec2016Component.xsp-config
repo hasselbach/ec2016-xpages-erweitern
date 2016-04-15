@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE faces-config PUBLIC "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.0//EN"
+                              "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+<faces-config>
+	<faces-config-extension>
+		<namespace-uri>http://entwicklercamp/xsp/control</namespace-uri>
+		<default-prefix>ec2016</default-prefix>
+	</faces-config-extension>
+	
+	<component>
+		<component-type>ec2016.component.DemoComponent</component-type>
+		<component-class>ec2016.component.DemoComponent</component-class>
+		
+		<component-extension>
+			<component-family>ec2016.component</component-family>
+			<renderer-type>ec2016.component</renderer-type>
+			
+			<tag-name>DemoComponent</tag-name>
+			
+			<designer-extension>
+				<in-palette>true</in-palette>
+				<category>DemoComponent</category>
+			</designer-extension>
+		</component-extension>
+		
+	</component>
+
+
+	<component>
+		<component-type>ec2016.component.DemoComponentWithState</component-type>
+		<component-class>ec2016.component.DemoComponentWithState</component-class>
+		
+		<component-extension>
+			<component-family>ec2016.component</component-family>
+			<renderer-type>ec2016.component</renderer-type>
+			
+			<tag-name>DemoComponentWithState</tag-name>
+			
+			<designer-extension>
+				<in-palette>true</in-palette>
+				<category>DemoComponent</category>
+			</designer-extension>
+		</component-extension>
+
+		<property>
+			<property-name>myValue</property-name>
+			<property-class>java.lang.String</property-class>
+		</property>
+	</component>
+</faces-config>

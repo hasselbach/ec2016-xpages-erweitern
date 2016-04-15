@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257F6E0043BFC4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="206" sequence="2" unid="6F0A1D3C76E0EF52C1257F700036D48C">
+<created><datetime>20160308T105853,56+01</datetime></created>
+<modified><datetime>20160308T105853,75+01</datetime></modified>
+<revised><datetime>20160308T105853,73+01</datetime></revised>
+<lastaccessed><datetime>20160308T105853,73+01</datetime></lastaccessed>
+<addedtofile><datetime>20160308T105853,56+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Entwickler Extern/OU=EXTERN/O=VLH</name><name>CN=Entwickler VLH/OU=EDV/O=VLH</name><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></updatedby>
+<wassignedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>ch/hasselba/xpages/JSFUtils.java</text></item>
+
+
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>ch/hasselba/xpages/JSFUtils.java</text></item></note>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:ec2016="http://entwicklercamp/xsp/control"> 
+	
+	
+	<ec2016:DemoComponentWithState
+		id="DemoComponentWithState1"
+		myValue="xx">
+	</ec2016:DemoComponentWithState>
+	
+</xp:view>

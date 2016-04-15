@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257F6E0043BFC4" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="24e" sequence="5" unid="238EB58CD66DC6A9C1257F74005C0A03">
+<created><datetime>20160312T174518,75+01</datetime></created>
+<modified><datetime>20160312T174520,70+01</datetime></modified>
+<revised><datetime>20160312T174520,68+01</datetime></revised>
+<lastaccessed><datetime>20160312T174520,68+01</datetime></lastaccessed>
+<addedtofile><datetime>20160312T174518,75+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></updatedby>
+<wassignedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>ec2016/validators/RequiredValidator.java</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>ec2016/validators/RequiredValidator.java</text></item>
+
+
+</note>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
+	
+	<xp:inputText
+		id="inputText1"
+		rendererType="ec2016.renderer.DemoRenderer">
+	</xp:inputText>
+</xp:view>

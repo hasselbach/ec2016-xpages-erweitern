@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xe="http://www.ibm.com/xsp/coreex">
+ 
+	<!--
+		Bind the Component that you want to inspect to a request scope
+		variable by using the binding property We Will use myComponent as
+		scope variable name
+	-->
+	<xp:inputText id="inputText1" binding="#{myComponent}"></xp:inputText>
+	
+	<!-- Output the properties of that Component -->
+	<xp:table>
+		<xp:tr>
+			<xp:td>
+				<xp:label value="Component Family" id="label1"></xp:label>
+			</xp:td>
+			<xp:td>
+				<!-- Output the Components Component Family using getFamily()  -->
+				<xp:text escape="true" id="computedField1"
+					value="#{myComponent.family}"></xp:text>
+			</xp:td>
+		</xp:tr>
+		<xp:tr>
+			<xp:td>
+				<xp:label value="Renderer Type" id="label2"></xp:label>
+			</xp:td>
+			<xp:td>
+				<!--
+					Output the Components Renderer Type using getRendererType()
+					rendererType in EL Notation
+				-->
+				<xp:text escape="true" id="computedField2"
+					value="#{myComponent.rendererType}"></xp:text>
+ 
+			</xp:td>
+		</xp:tr>
+		<xp:tr>
+			<xp:td>
+				<xp:label value="StyleKit Family" id="label3"></xp:label>
+			</xp:td>
+			<xp:td>
+				<!--
+					Output the Components Style Kit Family using getStyleKitFamily()
+					styleKitFamily in EL Notation
+				-->
+				<xp:text escape="true" id="computedField3"
+					value="#{myComponent.styleKitFamily}"></xp:text>
+			</xp:td>
+		</xp:tr>
+ 
+	</xp:table>
+ 
+</xp:view>

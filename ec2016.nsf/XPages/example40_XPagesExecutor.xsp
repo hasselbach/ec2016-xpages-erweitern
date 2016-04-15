@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+ <xp:button
+        value="run the job"
+        id="buttonDoIt">
+        <xp:eventHandler
+            event="onclick"
+            submit="true"
+            refreshMode="complete">
+            <xp:this.action>
+                <![CDATA[#{javascript:
+                importPackage(ec2016.concurrent);
+                new ec2016.concurrent.DemoExecutor().doIt();}]]>
+            </xp:this.action>
+        </xp:eventHandler>
+    </xp:button>
+    
+</xp:view>
